@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:regular,500,700,800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/null.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Nîmes</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="header__container _container">
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+                <a href="" class="menu__link _text">Woman</a>
+            </li>
+            <li class="menu__item">
+                <a href="" class="menu__link _text">Man</a>
+            </li>
+            <li class="menu__item">
+                <a href="" class="menu__link _text">New</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__logo--container"><a href="" class="header__logo _logo">Nîmes</a></div>
+        
+        <div class="header__pic">
+          <div class="header__search"></div>
+          <div class="header__basket"></div>
+        </div>
+        
+      </div>
+    </div>
+    <section class="page">
+      <div class="page__container _container">
+        <div class="page__card card">
+          <div class="card__slider slider">
+            <div class="slider__container">
+              <div class="slider__list">
+                <img id="0" class="slider__list--item _big" src="img/product-image-1.png" alt="product__image1">
+                <img id="1" class="slider__list--item " src="img/product-image-2.png" alt="product__image2" >
+                <img id="2" class="slider__list--item" src="img/product-image-3.png" alt="product__image3" >
+                <img id="3" class="slider__list--item" src="img/product-image-4.png" alt="product__image4" >
+                <img id="4" class="slider__list--item" src="img/product-image-5.png" alt="product__image5" >
+              </div>
+              <div class="slider__control">
+                <div id="slider__control--left-arrow" onclick="slider('left')"></div>
+                <div id="slider__control--right-arrow" onclick="slider('right')"></div>
+              </div>
+            </div>
+          </div>
+          <div class="card__info info">
+            <div class="info__container">
+              <div class="info__body">
+                <h1 class="info__title _title">Overalls</h1>
+                <p class="info__text _text">Overalls in washed organic cotton denim. Collar, button fly, and adjustable belt at waist. Chest pockets with flap. Long, gently flared sleeves and straight legs with front pockets and back pockets.</p>
+                <form action="" class="info__form">
+                  <h3 class="info__color _subTitle">Color</h3>
+                  <div class="info__color--container">                    
+                    <div class="info__color--value color__value" >
+                      <input id="c1" class="color__value--check " checked="cheked" type="radio" name="colorCode" >
+                      <label class="color__value--vue _clr1" for="c1"></label>
+                    </div>
+                    <div class="info__color--value color__value" >
+                      <input id="c2" class="color__value--check " type="radio" name="colorCode" >
+                      <label class="color__value--vue _clr2" for="c2" ></label>
+                    </div>
+                    <div class="info__color--value color__value" >
+                      <input id="c3" class="color__value--check " type="radio" name="colorCode" >
+                      <label class="color__value--vue _clr3" for="c3"></label>
+                    </div>                    
+                  </div>
+                  <h3 class="info__size _subTitle">Size</h3>
+                  <div class="info__size--container">
+                    <div class="info__size--value size__value" >
+                      <input id="s1" class="size__value--check _radio" type="radio" name="sizeCode" >
+                      <label class="size__value--text _subTitle" for="s1">XS</label> 
+                    </div>
+                    <div class="info__size--value size__value" >
+                      <input id="s2" class="size__value--check _radio" type="radio" name="sizeCode" >
+                      <label class="size__value--text _subTitle" for="s2">S</label>
+                    </div>
+                    <div class="info__size--value size__value" >
+                      <input id="s3" class="size__value--check _radio" type="radio" name="sizeCode" >
+                      <label class="size__value--text _subTitle" for="s3">M</label> 
+                    </div>
+                    <div class="info__size--value size__value" >
+                      <input id="s4" class="size__value--check _radio" type="radio" name="sizeCode" >
+                      <label class="size__value--text _subTitle" for="s4">L</label> 
+                    </div>
+                    <div class="info__size--value size__value" >
+                      <input id="s5" class="size__value--check _radio" type="radio" name="sizeCode" >
+                      <label class="size__value--text _subTitle" for="s5">XL</label> 
+                    </div>
+                  </div>
+                  <div class="info__price _subTitle">$ 160</div>
+                  <button class="info__btn _text" type="button">Add to cart</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page__more more">
+          <div class="more__container">
+            <div class="more__title--container">
+              <h2 class="more__title _title">You may also like</h2>
+              <a href="" class="more__link _subTitle"> View all </a>
+            </div>
+            <div class="more__prevue">
+              <a href="" class="more__card--container">
+                <img src="img/similar-image-1.png" alt="prevue image" class="more__card--img">
+                <div class="more__card--name _subTitle">Overalls</div>
+                <div class="more__card--price _text">$ 140</div>
+              </a>
+              <a href="" class="more__card--container">
+                <img src="img/similar-image-2.png" alt="prevue image" class="more__card--img">
+                <div class="more__card--name _subTitle">Overalls</div>
+                <div class="more__card--price _text">$ 110</div>
+              </a>
+              <a href="" class="more__card--container">
+                <img src="img/similar-image-3.png" alt="prevue image" class="more__card--img">
+                <div class="more__card--name _subTitle">Jacket</div>
+                <div class="more__card--price _text">$ 70</div>
+              </a>
+              <a href="" class="more__card--container">
+                <img src="img/similar-image-4.png" alt="prevue image" class="more__card--img">
+                <div class="more__card--name _subTitle">Jacket</div>
+                <div class="more__card--price _text">$ 60</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+      <div class="footer__container">
+        <div class="footer__body">
+          <a href="" class="footer__logo _logo _w">Nîmes</a>
+        <nav class="footer__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+                <a href="" class="menu__link _w _subTitle">Shop</a>
+            </li>
+            <li class="menu__item">
+                <a href="" class="menu__link _w _subTitle">Delivery</a>
+            </li>
+            <li class="menu__item">
+                <a href="" class="menu__link _w _subTitle">Service</a>
+            </li>
+            <li class="menu__item">
+                <a href="" class="menu__link _w _subTitle">Sitemap</a>
+            </li>
+            <li class="menu__item">
+                <a href="" class="menu__link _w _subTitle">Contacts</a>
+            </li>
+            
+          </ul>
+        </nav>
+        <ul class="footer__media--list media">
+          <li class="media__item">
+            <a href="http://www.facebook.com.vn/" class="media__link">
+              <img class="media__icon" src="img/fb.svg" alt="faceboock">
+            </a>
+          </li>
+          <li class="media__item">
+            <a href="https://www.instagram.com/" class="media__link">
+              <img class="media__icon" src="img/insta.svg" alt="instagram">
+            </a>
+          </li>
+          <li class="media__item">
+            <a href="https://www.pinterest.ru/" class="media__link">
+              <img class="media__icon" src="img/pinterest.svg" alt="pinterest">
+            </a>
+          </li>
+          <li class="media__item">
+            <a href="https://twitter.com/" class="media__link">
+              <img class="media__icon" src="img/twitter.svg" alt="twitter">
+            </a>
+          </li>
+        </ul>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
